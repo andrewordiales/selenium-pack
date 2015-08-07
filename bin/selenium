@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var spawn = require('child_process').spawn;
+
+var $1 = process.argv[2];
+
+switch($1) {
+  case 'start':
+
+      console.log('Starting selenium server');
+
+      var seleniumJarPath = fs.realpathSync(__dirname+'/../jar/2.46.0-server-0c.jar');
+      var selenium = spawn('java', ['-jar', seleniumJarPath], { detached: true, stdio: 'ignore' });
+      selenium.unref();
+      break;
+
+  default:
+      console.log('Usage: selenium {start}');
+}

@@ -1,0 +1,25 @@
+{
+  "name": "selenium-pack",
+  "version": "0.0.1-2.46.0",
+  "description": "Init-like script for selenium with server jar",
+  "main": "index.js",
+  "bin": {
+    "selenium":"./bin/selenium"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andruandru/selenium-pack.git"
+  },
+  "keywords": [
+    "selenium"
+  ],
+  "author": "Andrew Ordiales <andrew.ordiales@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andruandru/selenium-pack/issues"
+  },
+  "homepage": "https://github.com/andruandru/selenium-pack"
+}
