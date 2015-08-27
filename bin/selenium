@@ -5,16 +5,48 @@ var spawn = require('child_process').spawn;
 
 var $1 = process.argv[2];
 
+//TODO: Find windows equivalent
+var pidFile = "/tmp/selenium.pid";
+
+
 switch($1) {
   case 'start':
 
-      console.log('Starting selenium server');
+    console.log('Starting selenium server');
 
-      var seleniumJarPath = fs.realpathSync(__dirname+'/../jar/2.46.0-server-0c.jar');
-      var selenium = spawn('java', ['-jar', seleniumJarPath], { detached: true, stdio: 'ignore' });
-      selenium.unref();
-      break;
+    var seleniumJarPath = fs.realpathSync(__dirname+'/../jar/2.46.0-server-0c.jar');
+
+    var spawnArgs = ['-jar', seleniumJarPath];
+    var spawnOpts = { detached: true, stdio: 'ignore' };
+
+    var selenium = spawn('java', spawnArgs, spawnOpts);
+    selenium.unref();
+
+    try {
+      fs.writeFileSync(pidFile, selenium.pid);
+    } catch(e) {
+      console.log('Unable to write PID file');
+      console.log('Selenium Server PID:', selenium.pid);
+    }
+
+    break;
+
+  case 'stop':
+
+    try {
+
+      var pid = fs.readFileSync(pidFile);
+
+      //NOTE: for windows: wmic process where "name like '%SELENIUM_NAME_AND_PORT%'" delete
+      spawn('kill', [pid]);
+
+      fs.unlinkSync(pidFile);
+    } catch(e) {
+      console.log('Error occurred.');
+    }
+
+    break;
 
   default:
-      console.log('Usage: selenium {start}');
+    console.log('Usage: selenium {start|stop}');
 }
