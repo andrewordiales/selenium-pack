@@ -39,12 +39,29 @@ $ selenium stop // Stops selenium server
 
 ```
 
+## NPM Versions
+
+<strong>Selenium Server v2.47.1</strong>
+<ul>
+  <li>`0.2.0-2.47.1`</li>
+</ul>
+
+<strong>Selenium Server v2.46.0</strong>
+<ul>
+  <li>`0.2.0-2.46.0`</li>
+  <li>`0.1.0-2.46.0`</li>
+</ul>
+
 
 ## Release Notes
 
-- v0.2.0
- 1. Fixed: unable to stop server after running start twice
- 2. Added library to handle selenium jar & pid
+<strong>v0.2.0</strong>
+<ul>
+  <li>Fixed: unable to stop server after running start twice</li>
+  <li>Added library to handle selenium jar & pid</li>
+</ul>
 
-- v0.1.0
- 1. Added functionality to stop server.
+<strong>v0.1.0</strong>
+<ul>
+  <li>Added functionality to stop server.</li>
+</ul>
