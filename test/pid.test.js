@@ -11,6 +11,15 @@ var fakePid = '8888';
 
 describe('lib.pid', function() {
 
+  after(function() {
+
+    try {
+      lib.pid.delete();
+    } catch(e) {
+
+    }
+  })
+
   describe('getRunning', function() {
 
     it('returns a saved pid', function() {
