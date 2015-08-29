@@ -7,7 +7,7 @@
     "selenium":"./bin/selenium"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/andruandru/selenium-pack/issues"
   },
-  "homepage": "https://github.com/andruandru/selenium-pack"
+  "homepage": "https://github.com/andruandru/selenium-pack",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
 }
