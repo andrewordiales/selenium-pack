@@ -23,6 +23,13 @@ describe('lib.pid', function() {
 
       lib.pid.delete();
     })
+
+    it('returns null if pid file doesnt exist', function() {
+
+      expect(
+        lib.pid.getRunning()
+      ).to.equal(null);
+    })
   })
 
   describe('delete', function() {
