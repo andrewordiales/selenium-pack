@@ -51,17 +51,25 @@ $ selenium version
 
 <strong>Selenium Server v2.47.1</strong>
 <ul>
+  <li>0.3.0-2.47.1</li>
   <li>0.2.0-2.47.1</li>
 </ul>
 
 <strong>Selenium Server v2.46.0</strong>
 <ul>
+  <li>0.3.0-2.46.0</li>
   <li>0.2.0-2.46.0</li>
   <li>0.1.0-2.46.0</li>
 </ul>
 
 
 ## Release Notes
+
+<strong>v0.3.0</strong>
+<ul>
+  <li>Added command to show the version of included selenium standalone server</li>
+  <li>Added lib.init to handle start, stop, and clear</li>
+</ul>
 
 <strong>v0.2.0</strong>
 <ul>
