@@ -59,6 +59,10 @@ switch($1) {
     lib.pid.delete();
     break;
 
+  case 'version':
+    console.log('This selenium-pack contains selenium standalone server version:', lib.selenium.getVersion());
+    break;
+
   default:
     console.log('Usage: selenium {start|stop|clear}');
     console.log('  start: start selenium server');

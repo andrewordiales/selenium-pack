@@ -23,19 +23,27 @@ e.g. 0.0.1-2.46.0 contains selenium server version 2.46.0
 
 ## Usage
 
-Starting selenium server
+Starting selenium server:
 
 ```
 
-$ selenium start // Starts selenium server
+$ selenium start
 
 ```
 
-Stopping selenium server
+Stopping selenium server:
 
 ```
 
-$ selenium stop // Stops selenium server
+$ selenium stop
+
+```
+
+Showing the version of included selenium standalone server:
+
+```
+
+$ selenium version
 
 ```
 
@@ -43,13 +51,13 @@ $ selenium stop // Stops selenium server
 
 <strong>Selenium Server v2.47.1</strong>
 <ul>
-  <li>`0.2.0-2.47.1`</li>
+  <li>0.2.0-2.47.1</li>
 </ul>
 
 <strong>Selenium Server v2.46.0</strong>
 <ul>
-  <li>`0.2.0-2.46.0`</li>
-  <li>`0.1.0-2.46.0`</li>
+  <li>0.2.0-2.46.0</li>
+  <li>0.1.0-2.46.0</li>
 </ul>
 
 
