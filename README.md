@@ -1,6 +1,10 @@
 # selenium-pack
 Init-like script for selenium with server jar
 
+## Prerequisites
+
+- Java Runtime
+
 ## Installation
 
 ```
@@ -9,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.2.0 is here! See the _release notes_ below.
+> v0.3.1 is here! See the _release notes_ below.
 
 ## Versioning
 
@@ -51,6 +55,7 @@ $ selenium version
 
 <strong>Selenium Server v2.47.1</strong>
 <ul>
+  <li>0.3.1-2.47.1</li>
   <li>0.3.0-2.47.1</li>
   <li>0.2.0-2.47.1</li>
 </ul>
@@ -62,8 +67,19 @@ $ selenium version
   <li>0.1.0-2.46.0</li>
 </ul>
 
+## Tested Running in
+
+- OS X Mavericks (10.9)
+- Raspbian GNU/Linux 7 (Wheezy)
+- Amazon Linux 2014.09.x
+- Windows 8.1
 
 ## Release Notes
+
+<strong>v0.3.1</strong>
+<ul>
+  <li>Added Windows compatibility</li>
+</ul>
 
 <strong>v0.3.0</strong>
 <ul>
