@@ -1,5 +1,5 @@
 # selenium-pack
-Init-like script for selenium with server jar
+NPM Package to install-and-run [selenium standalone server](http://docs.seleniumhq.org/download/).
 
 ## Prerequisites
 
@@ -27,28 +27,19 @@ e.g. 0.0.1-2.46.0 contains selenium server version 2.46.0
 
 ## Usage
 
-Starting selenium server:
-
+Start/Run the selenium server:
 ```
-
 $ selenium start
-
 ```
 
-Stopping selenium server:
-
+Stop the running selenium server:
 ```
-
 $ selenium stop
-
 ```
 
-Showing the version of included selenium standalone server:
-
+To show the version of the included selenium standalone server
 ```
-
 $ selenium version
-
 ```
 
 ## NPM Versions
