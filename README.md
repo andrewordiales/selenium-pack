@@ -1,4 +1,4 @@
-# selenium-pack
+# Selenium Pack
 NPM Package to install-and-run [selenium standalone server](http://docs.seleniumhq.org/download/).
 
 ## Prerequisites
@@ -18,11 +18,13 @@ $ sudo npm install selenium-pack -g
 ## Versioning
 
 ```
-X.Y.Z-SELENIUM_SERVER_VERSION
+X.Y.Z-A.B.C
+
+X.Y.Z - Selenium pack version
+
+A.B.C - Selenium standalone server version
 
 e.g. 0.0.1-2.46.0 contains selenium server version 2.46.0
-
-
 ```
 
 ## Usage
