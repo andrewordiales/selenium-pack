@@ -46,6 +46,11 @@ $ selenium version
 
 ## NPM Versions
 
+<strong>Selenium Server v2.48.2</strong>
+<ul>
+  <li>0.3.2-2.48.2</li>
+</ul>
+
 <strong>Selenium Server v2.47.1</strong>
 <ul>
   <li>0.3.1-2.47.1</li>
@@ -62,7 +67,7 @@ $ selenium version
 
 ## Tested Running in
 
-- OS X Mavericks (10.9)
+- OS X Mavericks (10.9) & Yosemite (10.10.5)
 - Raspbian GNU/Linux 7 (Wheezy)
 - Amazon Linux 2014.09.x
 - Windows 8.1
