@@ -19,13 +19,18 @@ switch($1) {
     break;
 
   case 'version':
-    console.log('This selenium-pack contains selenium standalone server version:', lib.selenium.getVersion());
+    lib.init.version();
     break;
+    
+  case 'path':
+  	lib.init.path();
+  	break;
 
   default:
-    console.log('Usage: selenium {start|stop|clear}');
+    console.log('Usage: selenium {start|stop|clear|version|path}');
     console.log('  start: start selenium server');
     console.log('  stop: stop selenium server');
     console.log('  clear: delete the pid file');
-
+    console.log('  version: prints the selenium standalone server version');
+    console.log('  path: prints the full path of the selenium server jar');
 }
