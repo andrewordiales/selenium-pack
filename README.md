@@ -13,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.3.1 is here! See the _release notes_ below.
+> v0.3.3 is here! See the _release notes_ below.
 
 ## Versioning
 
@@ -44,10 +44,16 @@ To show the version of the included selenium standalone server
 $ selenium version
 ```
 
+Print the path of the selenium standalone server jar
+```
+$ selenium path
+```
+
 ## NPM Versions
 
 <strong>Selenium Server v2.48.2</strong>
 <ul>
+  <li>0.3.3-2.48.2</li>
   <li>0.3.2-2.48.2</li>
 </ul>
 
@@ -73,6 +79,11 @@ $ selenium version
 - Windows 8.1
 
 ## Release Notes
+
+<strong>v0.3.3</strong>
+<ul>
+  <li>Added command to print the full path of the selenium standalone server jar</li>
+</ul>
 
 <strong>v0.3.1</strong>
 <ul>
