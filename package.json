@@ -14,7 +14,7 @@
     "url": "https://github.com/andruandru/selenium-pack.git"
   },
   "keywords": [
-    "selenium"
+    "selenium", "standalone", "server", "jar"
   ],
   "author": "Andrew Ordiales <andrew.ordiales@gmail.com>",
   "license": "MIT",
