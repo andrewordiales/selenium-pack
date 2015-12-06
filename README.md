@@ -13,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.3.3 is here! See the _release notes_ below.
+> v0.3.4 is here! See the _release notes_ below.
 
 ## Versioning
 
@@ -49,10 +49,33 @@ Print the path of the selenium standalone server jar
 $ selenium path
 ```
 
+## Passing arguments
+
+Use a config file (`selenium.conf.json`) to pass arguments to selenium standalone server.
+
+Selenium pack searches for `selenium.conf.json` in the following precedence:
+
+<ol>
+  <li>Current working directory</li>
+  <li>Inside a folder named "config" in the current working directory</li> 
+</ol> 
+
+`selenium.conf.json` uses JSON Format and must pass a [JSON Validator](http://jsonlint.com)
+
+Sample `selenium.conf.json` format:
+
+```
+{
+  "port": 8080,
+  "timeout": 120
+}
+```
+
 ## NPM Versions
 
 <strong>Selenium Server v2.48.2</strong>
 <ul>
+  <li>0.3.4-2.48.2</li>
   <li>0.3.3-2.48.2</li>
   <li>0.3.2-2.48.2</li>
 </ul>
@@ -79,6 +102,11 @@ $ selenium path
 - Windows 8.1
 
 ## Release Notes
+
+<strong>v0.3.4</strong>
+<ul>
+  <li>Pass arguments to selenium jar using a config file</li>
+</ul>
 
 <strong>v0.3.3</strong>
 <ul>
