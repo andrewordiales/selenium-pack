@@ -57,8 +57,8 @@ Selenium pack searches for `selenium.conf.json` in the following precedence:
 
 <ol>
   <li>Current working directory</li>
-  <li>Inside a folder named "config" in the current working directory</li> 
-</ol> 
+  <li>Inside a folder named "config" in the current working directory</li>
+</ol>
 
 `selenium.conf.json` uses JSON Format and must pass a [JSON Validator](http://jsonlint.com)
 
@@ -72,6 +72,11 @@ Sample `selenium.conf.json` format:
 ```
 
 ## NPM Versions
+
+<strong>Selenium Server v2.53.0</strong>
+<ul>
+  <li>0.3.4-2.53.0</li>
+</ul>
 
 <strong>Selenium Server v2.48.2</strong>
 <ul>
