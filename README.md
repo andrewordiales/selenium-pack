@@ -58,7 +58,7 @@ var selenium-pack = require('selenium-pack');
 selenium-pack.init.start();
 
 // Stops the running server
-selenium-pack.init.path();
+selenium-pack.init.stop();
 
 ```
 
