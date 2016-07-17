@@ -13,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.3.4 is here! See the _release notes_ below.
+> v0.3.5 is here! See the _release notes_ below.
 
 ## Versioning
 
@@ -49,6 +49,20 @@ Print the path of the selenium standalone server jar
 $ selenium path
 ```
 
+## Running Inside your Code
+
+```
+var selenium-pack = require('selenium-pack');
+
+// Starts the selenium server
+selenium-pack.init.start();
+
+// Stops the running server
+selenium-pack.init.path();
+
+```
+
+
 ## Passing arguments
 
 Use a config file (`selenium.conf.json`) to pass arguments to selenium standalone server.
@@ -72,6 +86,11 @@ Sample `selenium.conf.json` format:
 ```
 
 ## NPM Versions
+
+<strong>Selenium Server v2.53.1</strong>
+<ul>
+  <li>0.3.5-2.53.1</li>
+</ul>
 
 <strong>Selenium Server v2.53.0</strong>
 <ul>
@@ -107,6 +126,11 @@ Sample `selenium.conf.json` format:
 - Windows 8.1
 
 ## Release Notes
+
+<strong>v0.3.5</strong>
+<ul>
+  <li>Minor: Improved handling of path</li>
+</ul>
 
 <strong>v0.3.4</strong>
 <ul>
