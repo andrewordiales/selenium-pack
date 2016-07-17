@@ -13,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.3.5 is here! See the _release notes_ below.
+> v0.3.6 is here! See the _release notes_ below.
 
 ## Versioning
 
@@ -89,7 +89,7 @@ Sample `selenium.conf.json` format:
 
 <strong>Selenium Server v2.53.1</strong>
 <ul>
-  <li>0.3.5-2.53.1</li>
+  <li>0.3.6-2.53.1</li>
 </ul>
 
 <strong>Selenium Server v2.53.0</strong>
@@ -126,6 +126,11 @@ Sample `selenium.conf.json` format:
 - Windows 8.1
 
 ## Release Notes
+
+<strong>v0.3.6</strong>
+<ul>
+  <li>Minor: Updated README</li>
+</ul>
 
 <strong>v0.3.5</strong>
 <ul>
