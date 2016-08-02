@@ -13,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.3.6 is here! See the _release notes_ below.
+> v0.3.6 is here!
 
 ## Versioning
 
@@ -125,46 +125,6 @@ Sample `selenium.conf.json` format:
 - Amazon Linux 2014.09.x
 - Windows 8.1
 
-## Release Notes
+## Change Log
 
-<strong>v0.3.6</strong>
-<ul>
-  <li>Minor: Updated README</li>
-</ul>
-
-<strong>v0.3.5</strong>
-<ul>
-  <li>Minor: Improved handling of path</li>
-</ul>
-
-<strong>v0.3.4</strong>
-<ul>
-  <li>Pass arguments to selenium jar using a config file</li>
-</ul>
-
-<strong>v0.3.3</strong>
-<ul>
-  <li>Added command to print the full path of the selenium standalone server jar</li>
-</ul>
-
-<strong>v0.3.1</strong>
-<ul>
-  <li>Added Windows compatibility</li>
-</ul>
-
-<strong>v0.3.0</strong>
-<ul>
-  <li>Added command to show the version of included selenium standalone server</li>
-  <li>Added lib.init to handle start, stop, and clear</li>
-</ul>
-
-<strong>v0.2.0</strong>
-<ul>
-  <li>Fixed: unable to stop server after running start twice</li>
-  <li>Added library to handle selenium jar & pid</li>
-</ul>
-
-<strong>v0.1.0</strong>
-<ul>
-  <li>Added functionality to stop server.</li>
-</ul>
+Please see [CHANGELOG.md](https://github.com/andruandru/selenium-pack/blob/master/CHANGELOG.md)
