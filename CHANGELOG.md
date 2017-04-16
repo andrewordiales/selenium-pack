@@ -1,5 +1,9 @@
 # Selenium-Pack Release Notes
 
+### 0.3.7
+
+* Temporary fix for missing Windows environment variable error
+
 ### 0.3.6
 
 * Minor: Updated README
@@ -33,4 +37,3 @@
 ### 0.1.0
 
 * Added functionality to stop server.
-
