@@ -13,7 +13,7 @@ $ sudo npm install selenium-pack -g
 
 > **Current Release**
 >
-> v0.3.6 is here!
+> v0.3.7 is here!
 
 ## Versioning
 
