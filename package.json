@@ -1,6 +1,6 @@
 {
   "name": "selenium-pack",
-  "version": "0.3.7-3.3.1",
+  "version": "0.3.7-3.14.0",
   "description": "Init-like script for selenium with server jar",
   "main": "index.js",
   "bin": {
