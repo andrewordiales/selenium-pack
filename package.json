@@ -4,7 +4,7 @@
   "description": "Init-like script for selenium with server jar",
   "main": "index.js",
   "bin": {
-    "selenium":"./bin/selenium"
+    "selenium": "./bin/selenium"
   },
   "scripts": {
     "test": "mocha test"
@@ -14,7 +14,10 @@
     "url": "https://github.com/andruandru/selenium-pack.git"
   },
   "keywords": [
-    "selenium", "standalone", "server", "jar"
+    "selenium",
+    "standalone",
+    "server",
+    "jar"
   ],
   "author": "Andrew Ordiales <andrew.ordiales@gmail.com>",
   "license": "MIT",
@@ -24,6 +27,6 @@
   "homepage": "https://github.com/andruandru/selenium-pack",
   "devDependencies": {
     "chai": "3.2.0",
-    "mocha": "2.2.5"
+    "mocha": "5.2.0"
   }
 }
